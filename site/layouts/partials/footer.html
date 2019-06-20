@@ -1,52 +1,49 @@
-<footer class="bg-black ph3 pv4 white">
-
-	<div class="mw7 center pt3">
-
-		<div class="measure-narrow center mb4">
-
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
-		</div>
+<!-- Контакы -->
+<section>
+	<header>
+		<h2>Контакы</h2>
+	</header>
+	<div class="content">
+		<ul class="items">
+			<li>
+				<h3>Адрес / Реквизиты </h3>
+				<span>ООО «Авода» </span></br>
+				<span>Юридический и почтовый адрес : 394016, г. Воронеж, ул. 45-й Стрелковой дивизии 224.</span></br>
+				<span>ИНН: 3662275130</span></br>
+				<span>КПП: 366201001</span></br>
+				<span>ОГРН: 1193668017773</span>
+			</li>
+			<li>
+				<h3>Телефон</h3>
+				<a href="#">+7 (999) 721-98-08</a>
+			</li>
+			<li>
+				<h3>Email</h3>
+				<a href="#">v.v.gukov@водупить.рф</a>
+			</li>
+			<!--li>
+                <h3>Мы в сети</h3>
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                </ul>
+            </li-->
+		</ul>
 	</div>
+	<footer></footer>
+</section>
 
-</footer>
+
+<!-- Copyright -->
+<div class="copyright">&copy; #ВОДУПИТЬ. All rights reserved. 2019 <a href="https://водупить.рф">https://водупить.рф</a></div>
+
+<!-- Scripts -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/browser.min.js"></script>
+<script src="/js/breakpoints.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
 
 {{ partial "svg" . }}
 

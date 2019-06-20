@@ -2,8 +2,10 @@
 <html lang="en">
   {{ partial "head" . }}
   <body class="is-preload">
-    {{ partial "nav" . }}
-    {{ block "main" . }}{{ end }} 
-    {{ partial "footer" . }} 
+    <div id="wrapper">
+      {{ partial "nav" . }}
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer" . }}
+    </div>
   </body>
 </html>
