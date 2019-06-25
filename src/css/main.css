@@ -3207,7 +3207,8 @@ input, select, textarea {
 
 		#wrapper:before {
 			background-attachment: fixed;
-			background-color: #49fcd4;
+			opacity: .5;
+			background-color: #ef129e;
 			background-image: url("../images/image_1.png");
 			background-position: -50% 10%;
 			background-repeat: repeat-y;
