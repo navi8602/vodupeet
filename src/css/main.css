@@ -3928,3 +3928,19 @@ input, select, textarea {
 	.logo img {
 		width: 140px;
 	}
+
+	#movie-bg {
+		display: flex;
+		flex-wrap: wrap;
+		margin: -1.25rem 0 0 -1.25rem;
+		width: calc(100% + 1.25rem);
+	}
+
+	#myVideo {
+		border-bottom: 0;
+		display: block;
+		margin: 1.25rem;
+		outline: 0;
+		position: relative;
+		width: calc(100% - 1.25rem);
+	}
